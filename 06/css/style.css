@@ -1,0 +1,33 @@
+body{
+    background-color: pink;
+    color: #2d4059;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.item{
+    flex-grow: 1;
+    margin: 35px 40px;
+    text-align: center;
+}
+.item img{
+    width: 75%;
+}
+
+button{
+    background-color:#f07b3f;
+    color: #2d4059;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+    border: none;
+}
+
+@media screen and (max-width:480px){
+    .item img{
+        width: 100%;
+    }
+}
